@@ -17,13 +17,13 @@ In this app user can:
 5. Expenses reports
 6. etc
 
-As Android app doesn't have all function of Desktop version we can consider it as an additional application which main functions are creating accounts and transactions and exporting it to csv/qif/xml file, which later can be used by a desktop application. I think these features are the most important from the business point of view. 
+As Android app doesn't have all functions of Desktop version we can consider it as an additional application which main functions are creating accounts and transactions and exporting it to csv/qif/xml file, which later can be used by a desktop application. I think these features are the most important from the business point of view. 
 
 Also, this application has complex hierarchy of accounts and transactions between them, so it's important to carefully test their workflow. 
 
-Testing UI/UX is also very important as this application has not very intuitive and obvious navigation between screens which is resulting in bad user experience.
+Testing UI/UX is also very important as this application doesn't have intuitive and obvious navigation between screens which is resulting in bad user experience.
 
-For test automation of this application, I can suggest a close work with developers, as its not the most 'test-friendly' application. There some difficulties with detecting element from the list of elements and getting some of their parameters for assertions, which can be solved by, for example, adding an id to the element.
+For test automation of this application, I can suggest a close work with developers, as it's not the most 'test-friendly' application. There are some difficulties with detecting element from the list of elements and getting some of their parameters for assertions, which can be solved by, for example, adding an id to the element.
 
 ### Automated scenarios
 I created tests for four scenarios which are the most basic for this application. They are:
